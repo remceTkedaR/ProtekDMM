@@ -1,0 +1,26 @@
+unit DihgitalEkran;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  ExtCtrls, TeeProcs, TeEngine, Chart, Series;
+
+type
+  TGraph = class(TForm)
+    Chart1: TChart;
+    Series1: TLineSeries;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Graph: TGraph;
+
+implementation
+
+{$R *.DFM}
+
+end.
